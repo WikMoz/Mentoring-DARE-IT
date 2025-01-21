@@ -102,31 +102,31 @@ Test case TC031 Entering personal information of the accompanying person during 
 
 Test case TC032 Booking information summary 
 
-####4. Testing Approach
+#### 4. Testing Approach
 Exploratory and functional testing of the system will be conducted.
 
-####5. Testing Environment
+#### 5. Testing Environment
 - Operating system: Windows 10 Home, 
 - Processor: AMD Ryzen 7 4800H
 - RAM: 32,0 GB
 - Web browser: Google Chrome version 131.0.6778.86 ,
 - Software used: Jira, Screenpresso.
 
-####6. Risks
+#### 6. Risks
 - Login data security: User’s private data will be used during testing; login details must not be shared or cached.
 - Server overload during peak hours.
 - Browser compatibility issues with the website.
 
-####7. Artifacts
+#### 7. Artifacts
 - Test scenarios,
 - Test cases,
 - Bug reports,
 - Test summary report.
 
-####8. Roles and Responsibilities
+#### 8. Roles and Responsibilities
 Tester responsible for executing the project: Wiktoria Mozalewska
 
-####9. Test Completion Criteria
+#### 9. Test Completion Criteria
 Testing will be considered complete upon:
 
 - Execution of the test scenarios,
