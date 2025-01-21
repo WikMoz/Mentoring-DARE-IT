@@ -1,60 +1,41 @@
-# Mentoring-DARE-IT
+# PROJECT 1
 
 ## Exploratory testing of [Rainbow Tours](https://r.pl) website
 ### TEST PLAN
 TEST PLAN for testing the Rainbow Tours web application
-####1. Introduction
+#### 1. Introduction
 This document outlines the test plan for the Rainbow Tours web application. The application is designed for the following purposes:
+- Presenting trip options divided into many different categories (e.g. All-inclusive, Cruises, Skiing, Last minute, Charters, etc.).
+- Searching for the trip offers using filtering options like destination, dates or form of transport.
+- Creating the user account with personal data (e.g. Name, Surname, Address, ID number/ Passport number, etc.).
+- Updating personal data in the user's account.
+- Presenting the detailed descriptions of the offers with pictures and customer reviews.
+- Booking the trips.
+- Paying for trips using different payment options.
+- Providing customer support via phone, email or chat.
+- Providing travel inspiration through a blog (articles and guides).
+- Offering discounts and loyalty programs like last-minute deals or points systems (Boomerang).
+- Providing an informative section ‘About us’ with information about the company, addresses of the regional offices, careers section, etc.
+- Displaying links to social media platforms.
 
-Presenting trip options divided into many different categories (e.g. All-inclusive, Cruises, Skiing, Last minute, Charters, etc.).
-
-Searching for the trip offers using filtering options like destination, dates or form of transport.
-
-Creating the user account with personal data (e.g. Name, Surname, Address, ID number/ Passport number, etc.).
-
-Updating personal data in the user's account.
-
-Presenting the detailed descriptions of the offers with pictures and customer reviews.
-
-Booking the trips.
-
-Paying for trips using different payment options.
-
-Providing customer support via phone, email or chat.
-
-Providing travel inspiration through a blog (articles and guides).
-
-Offering discounts and loyalty programs like last-minute deals or points systems (Boomerang).
-
-Providing an informative section ‘About us’ with information about the company, addresses of the regional offices, careers section, etc.
-
-Displaying links to social media platforms.
-
-####2. Purpose of Testing
+#### 2. Purpose of Testing
 Manual regression tests to ensure that the application functions correctly and without issues after updating the Chrome browser to the latest version.
 
-####3. Scope of Testing
-Test scenario TS001 Login to the system
+#### 3. Scope of Testing
+
+##### Test scenario TS001 Login to the system
 
 Test scenario description:
-
 The purpose of this test is to verify if the login to the user’s account functionality is working correctly.
 
 The test will cover:
-
-login with correct credentials
-
-login with incorrect credentials or empty fields
-
-blocking the account after entering incorrect password multiple times
-
-login using social media accounts
-
-using remember me functionality
-
-reseting password
-
-deleting account
+- login with correct credentials
+- login with incorrect credentials or empty fields
+- blocking the account after entering incorrect password multiple times
+- login using social media accounts
+- using remember me functionality
+- reseting password
+- deleting account
 
 Test cases:
 
@@ -93,21 +74,17 @@ Test case TC033 Creating an account to delete
 Test case TC016 Login to the account that has been previously deleted
 
 
-Test scenario TS002 Testing the booking process for a trip 
+##### Test scenario TS002 Testing the booking process for a trip 
 
 Test scenario describtion:
-
 The purpose of this test is to verify if the main feature of the website: booking a trip is working correctly.
 
 The test will cover:
 
-searching for a trip,
-
-selecting a trip,
-
-adding trip to the cart,
-
-completing the payment process.
+- searching for a trip,
+- selecting a trip,
+- adding trip to the cart,
+- completing the reservation form.
 
 Test cases:
 
