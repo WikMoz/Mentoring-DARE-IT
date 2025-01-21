@@ -1,8 +1,10 @@
 # PROJECT 1
 
 ## Exploratory testing of [Rainbow Tours](https://r.pl) website
+
 ### TEST PLAN
 TEST PLAN for testing the Rainbow Tours web application
+
 #### 1. Introduction
 This document outlines the test plan for the Rainbow Tours web application. The application is designed for the following purposes:
 - Presenting trip options divided into many different categories (e.g. All-inclusive, Cruises, Skiing, Last minute, Charters, etc.).
@@ -39,44 +41,44 @@ The test will cover:
 
 Test cases:
 
-Test case TC001 Login to the system with correct login and password
+1. Test case TC001 Login to the system with correct login and password
+   
+2. Test case TC002 Login to the system with incorrect login
+   
+3. Test case TC003 Login to the system with incorrect password
 
-Test case TC002 Login to the system with incorrect login
+4. Test case TC004 Login to the system with empty login field
 
-Test case TC003 Login to the system with incorrect password
+5. Test case TC005 Login to the system with empty password field
 
-Test case TC004 Login to the system with empty login field
+6. Test case TC006 Login to the system with empty login and password field
 
-Test case TC005 Login to the system with empty password field
+7. Test case TC007 Login to the system with incorrect format of email (login)
 
-Test case TC006 Login to the system with empty login and password field
+8. Test case TC008 Login to the system with incorrect password multiple times
 
-Test case TC007 Login to the system with incorrect format of email (login)
+9. Test case TC009 Login to the account locked due to multiple unsuccessful tries 
 
-Test case TC008 Login to the system with incorrect password multiple times
+10. Test case TC010 Login to the system using social media - facebook account
 
-Test case TC009 Login to the account locked due to multiple unsuccessful tries 
+11. Test case TC011 Login to the system using social media - google account
 
-Test case TC010 Login to the system using social media - facebook account
+12. Test case TC012 Login to the system using social media - apple account
 
-Test case TC011 Login to the system using social media - google account
+13. Test case TC013 Remembering credentials after using ‘Remember me’ (‘Zapamietaj mnie’) functionality
 
-Test case TC012 Login to the system using social media - apple account
+14. Test case TC014 Reseting password using ‘Forgot the password?' (’Nie pamiętasz hasła?') functionality
 
-Test case TC013 Remembering credentials after using ‘Remember me’ (‘Zapamietaj mnie’) functionality
+15. Test case TC015 Login to the system after changing the password
 
-Test case TC014 Reseting password using ‘Forgot the password?' (’Nie pamiętasz hasła?') functionality
+16. Test case TC033 Creating an account to delete
 
-Test case TC015 Login to the system after changing the password
-
-Test case TC033 Creating an account to delete
-
-Test case TC016 Login to the account that has been previously deleted
+17. Test case TC016 Login to the account that has been previously deleted
 
 
 ##### Test scenario TS002 Testing the booking process for a trip 
 
-Test scenario describtion:
+Test scenario description:
 The purpose of this test is to verify if the main feature of the website: booking a trip is working correctly.
 
 The test will cover:
@@ -88,19 +90,19 @@ The test will cover:
 
 Test cases:
 
-Test case TC026 Searching for a trip
+1. Test case TC026 Searching for a trip
 
-Test case TC027 Selecting a trip offer
+2. Test case TC027 Selecting a trip offer
 
-Test case TC028 Adding the trip to the cart
+3. Test case TC028 Adding the trip to the cart
 
-Test case TC029 Entering personal information  for the travelers in the trip booking process
+4. Test case TC029 Entering personal information  for the travelers in the trip booking process
 
-Test case TC030 Selecting additional services in the trip booking process
+5. Test case TC030 Selecting additional services in the trip booking process
 
-Test case TC031 Entering personal information of the accompanying person during the trip booking process
+6. Test case TC031 Entering personal information of the accompanying person during the trip booking process
 
-Test case TC032 Booking information summary 
+7. Test case TC032 Booking information summary 
 
 #### 4. Testing Approach
 Exploratory and functional testing of the system will be conducted.
