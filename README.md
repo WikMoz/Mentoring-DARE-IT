@@ -7,7 +7,7 @@
 ## TEST PLAN
 TEST PLAN for testing the Rainbow Tours web application
 
-* [Introduction](#introduction)
+* [Introduction](#1.-introduction)
 * [Purpose of testing](#purpose-of-testing)
 * [Scope of testing](#scope-of-testing)
 * [Testing approach](#testing-approach)
