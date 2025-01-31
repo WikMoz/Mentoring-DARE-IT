@@ -1,3 +1,8 @@
+[<kbd> TEST PLAN </kbd>](#test-plan)
+[<kbd> TEST CASES </kbd>](#test-cases)
+[<kbd> BUG REPORTS </kbd>](#bug-reports)
+
+
 # PROJECT 1
 
 ## Exploratory testing of [Rainbow Tours](https://r.pl) website
