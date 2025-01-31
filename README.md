@@ -42,9 +42,9 @@ The test will cover:
 Test cases:
 
 1. Test case TC001 Login to the system with correct login and password
-   
+
 2. Test case TC002 Login to the system with incorrect login
-   
+
 3. Test case TC003 Login to the system with incorrect password
 
 4. Test case TC004 Login to the system with empty login field
@@ -57,23 +57,26 @@ Test cases:
 
 8. Test case TC008 Login to the system with incorrect password multiple times
 
-9. Test case TC009 Login to the account locked due to multiple unsuccessful tries 
+9. Test case TC034 Attempt to log in using image in the login
 
-10. Test case TC010 Login to the system using social media - facebook account
+10. Test case TC009 Login to the account blocked due to multiple unsuccessful tries 
 
-11. Test case TC011 Login to the system using social media - google account
+11. Test case TC010 Login to the system using social media - facebook account
 
-12. Test case TC012 Login to the system using social media - apple account
+12. Test case TC011 Login to the system using social media - google account
 
-13. Test case TC013 Remembering credentials after using ‘Remember me’ (‘Zapamietaj mnie’) functionality
+13. Test case TC012 Login to the system using social media - apple account
 
-14. Test case TC014 Reseting password using ‘Forgot the password?' (’Nie pamiętasz hasła?') functionality
+14. Test case TC013 Remembering credentials after using ‘Remember me’ (‘Zapamietaj mnie’) functionality
 
-15. Test case TC015 Login to the system after changing the password
+15. Test case TC014 Resetting password using ‘Forgot the password?' (’Nie pamiętasz hasła?') functionality
 
-16. Test case TC033 Creating an account to delete
+16. Test case TC015 Login to the system after changing the password
 
-17. Test case TC016 Login to the account that has been previously deleted
+17. Test case TC033 Creating an account to delete
+
+18. Test case TC016 Login to the account that has been previously deleted
+
 
 
 ##### Test scenario TS002 Testing the booking process for a trip 
@@ -96,13 +99,34 @@ Test cases:
 
 3. Test case TC028 Adding the trip to the cart
 
-4. Test case TC029 Entering personal information  for the travelers in the trip booking process
+4. Test case TC042 Verifying radio button functionality in the booking form - personal data
 
-5. Test case TC030 Selecting additional services in the trip booking process
+5. Test case TC043 Verifying checkbox functionality in the booking form - personal data
 
-6. Test case TC031 Entering personal information of the accompanying person during the trip booking process
+6. Test case TC045 Verifying hyperlinks in the booking form - personal data
 
-7. Test case TC032 Booking information summary 
+7. Test case TC044 Entering personal information for the travelers in the trip booking process - 'Zablokuj za darmo' option
+
+8. Test case TC029 Entering personal information for the travelers in the trip booking process - 'Zarezewuj teraz' option
+
+9. Test case TC030 Selecting additional services in the trip booking process
+
+10. Test case TC031 Entering personal information of the accompanying person during the trip booking process
+
+11. Test case TC035 Booking information summary - verification of participant 1 data
+
+12. Test case TC036 - Booking information summary - verification of participant 2 data
+
+13. Test case TC037 - Booking information summary - room configuration validation
+
+14. Test case TC038 - Booking information summary - price details
+
+15. Test case TC039 - Booking information summary -  adding loyalty cards
+
+16. Test case TC040 - Booking information summary - adding voucher
+
+17. Test case TC041 - Booking information summary - choosing payment options
+    
 
 #### 4. Testing Approach
 Exploratory and functional testing of the system will be conducted.
