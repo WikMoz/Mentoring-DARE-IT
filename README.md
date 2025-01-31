@@ -1,16 +1,22 @@
+
+# PROJECT - Exploratory testing of [Rainbow Tours](https://r.pl) website
 [<kbd> TEST PLAN </kbd>](#test-plan)
 [<kbd> TEST CASES </kbd>](#test-cases)
 [<kbd> BUG REPORTS </kbd>](#bug-reports)
 
-
-# PROJECT 1
-
-## Exploratory testing of [Rainbow Tours](https://r.pl) website
-
-### TEST PLAN
+## TEST PLAN
 TEST PLAN for testing the Rainbow Tours web application
+[<kbd> Introduction </kbd>](#intruduction)
+[<kbd> Purpose of testing </kbd>](#purpose-of-testing)
+[<kbd> Scope of testing </kbd>](#scope-of-testing)
+[<kbd> Testing approach </kbd>](#testing-approach)
+[<kbd> Testing environment </kbd>](#testing-environment)
+[<kbd> Risks </kbd>](#risks)
+[<kbd> Artifacts </kbd>](#artifacts)
+[<kbd> Roles and responsibilities </kbd>](#roles-and-responsibilities)
+[<kbd> Test completion criteria </kbd>](#test-completion-criteria)
 
-#### 1. Introduction
+### 1. Introduction
 This document outlines the test plan for the Rainbow Tours web application. The application is designed for the following purposes:
 - Presenting trip options divided into many different categories (e.g. All-inclusive, Cruises, Skiing, Last minute, Charters, etc.).
 - Searching for the trip offers using filtering options like destination, dates or form of transport.
@@ -25,12 +31,12 @@ This document outlines the test plan for the Rainbow Tours web application. The 
 - Providing an informative section ‘About us’ with information about the company, addresses of the regional offices, careers section, etc.
 - Displaying links to social media platforms.
 
-#### 2. Purpose of Testing
+### 2. Purpose of testing
 Manual regression tests to ensure that the application functions correctly and without issues after updating the Chrome browser to the latest version.
 
-#### 3. Scope of Testing
+### 3. Scope of Testing
 
-##### Test scenario TS001 Login to the system
+#### Test scenario TS001 Login to the system
 
 Test scenario description:
 The purpose of this test is to verify if the login to the user’s account functionality is working correctly.
@@ -84,7 +90,7 @@ Test cases:
 
 
 
-##### Test scenario TS002 Testing the booking process for a trip 
+#### Test scenario TS002 Testing the booking process for a trip 
 
 Test scenario description:
 The purpose of this test is to verify if the main feature of the website: booking a trip is working correctly.
@@ -133,39 +139,40 @@ Test cases:
 17. Test case TC041 - Booking information summary - choosing payment options
     
 
-#### 4. Testing Approach
+### 4. Testing Approach
 Exploratory and functional testing of the system will be conducted.
 
-#### 5. Testing Environment
+### 5. Testing Environment
 - Operating system: Windows 10 Home, 
 - Processor: AMD Ryzen 7 4800H
 - RAM: 32,0 GB
 - Web browser: Google Chrome version 131.0.6778.86 ,
 - Software used: Jira, Screenpresso.
 
-#### 6. Risks
+### 6. Risks
 - Login data security: User’s private data will be used during testing; login details must not be shared or cached.
 - Server overload during peak hours.
 - Browser compatibility issues with the website.
 
-#### 7. Artifacts
+### 7. Artifacts
 - Test scenarios,
 - Test cases,
 - Bug reports,
 - Test summary report.
 
-#### 8. Roles and Responsibilities
+### 8. Roles and responsibilities
 Tester responsible for executing the project: Wiktoria Mozalewska
 
-#### 9. Test Completion Criteria
+### 9. Test completion criteria
 Testing will be considered complete upon:
 
 - Execution of the test scenarios,
 - Reporting bugs in the form of bug reports,
 - Completion of the test summary report.
   
-### TEST CASES
-#### TEST SCEANRIO TS001 Login to the system
+## TEST CASES
+
+### TEST SCEANRIO TS001 Login to the system
 |Id |Title                                                          |TEST CASE|
 |:-:|:-------------------------------------------------------------:|:---------------:|
 |1  |Login to the system with correct login and password|[TEST CASE TC001](https://drive.google.com/file/d/1rDZgi__dxm1XLZkwyc7SPGPaU16e2mHg/view?usp=sharing)|
@@ -188,7 +195,7 @@ Testing will be considered complete upon:
 |18 |Login to the account that has been previously deleted|[TEST CASE TC016](https://drive.google.com/file/d/17d9Ldfa9fwL-_421xyzzGlDGlB9JD_Bi/view?usp=drive_link)|
 
 
-#### TEST SCENARO TS002 Testing the booking process for a trip 
+### TEST SCENARO TS002 Testing the booking process for a trip 
 |Id |Title                                                          |TEST CASE|
 |:-:|:-------------------------------------------------------------:|:---------------:|
 |1 |Searching for a trip|[TEST CASE TC026](https://drive.google.com/file/d/1w9pHayNeXxfRCzP-UsZ24vpC4afZwlq6/view?usp=drive_link)|
@@ -209,7 +216,8 @@ Testing will be considered complete upon:
 |16 |Booking information summary - adding voucher|[TEST CASE TC040](https://drive.google.com/file/d/1hOj2itr5C4ABSmS7bFnJfgCZCxzHyys4/view?usp=drive_link)|
 |17 |Booking information summary - choosing payment options|[TEST CASE TC041](https://drive.google.com/file/d/1vKVfBhZgynm-CmRvdaAwxBI0BFfx-J0L/view?usp=drive_link)|
 
-### BUG REPORTS
+
+## BUG REPORTS
 |Id |Title                                                          |BUG REPORT|Screencast|Screenshot|
 |:-:|:-------------------------------------------------------------:|:---------------:|:--------:|:--------:|
 |1  |Lack of specific error message when assigning an already registered phone number in the user's account|[BUG REPORT 1](https://drive.google.com/file/d/1L78n-mFgrkqubkogBj0A4SDTm4GmnoQr/view?usp=drive_link)|[Screencast](https://drive.google.com/file/d/135PgzW-qDmwhW3mNqcWnTi11GH8VdOEK/view?usp=drive_link)|[Screenshot](https://drive.google.com/file/d/1vITccxw4ntYXsqrQTProijPS9OJxOgbe/view?usp=drive_link)|
