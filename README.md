@@ -160,6 +160,50 @@ Testing will be considered complete upon:
 - Completion of the test summary report.
   
 ### TEST CASES
+#### TEST SCEANRIO TS001 Login to the system
+|Id |Title                                                          |TEST CASE|
+|:-:|:-------------------------------------------------------------:|:---------------:|
+|1  |Login to the system with correct login and password|[TEST CASE TC001](https://drive.google.com/file/d/1rDZgi__dxm1XLZkwyc7SPGPaU16e2mHg/view?usp=sharing)|
+|2  |Login to the system with incorrect login|[TEST CASE TC002](https://drive.google.com/file/d/1fqbMYnS4ptqajvhrSICFU6NuKxBo0XYa/view?usp=drive_link)|
+|3  |Login to the system with incorrect password|[TEST CASE TC003](https://drive.google.com/file/d/1izBCELRcKxRiTLzBemVauvdZyIbS2mTd/view?usp=drive_link)|
+|4  |Login to the system with empty login field|[TEST CASE TC004](https://drive.google.com/file/d/1_AvSd4vBNwIia4g2KzNVthNR5sih3Cwv/view?usp=drive_link)|
+|5  |Login to the system with empty password field|[TEST CASE TC005](https://drive.google.com/file/d/171huTlUok_hprmOtp2SeC9lbYh8UILZ4/view?usp=drive_link)|
+|6  |Login to the system with empty login and password field|[TEST CASE TC006](https://drive.google.com/file/d/1gZL9ZRKU3zkQaO3fk0EYFBLDIvoYAJg-/view?usp=drive_link )|
+|7  |Login to the system with incorrect format of email (login)|[TEST CASE TC007](https://drive.google.com/file/d/1ejPYr7qAlaywearFmMwxd1pAF9mj6I1t/view?usp=drive_link )|
+|8  |Login to the system with incorrect password multiple times|[TEST CASE TC008](https://drive.google.com/file/d/1IikAhQ6D5TJ3WMWTMuwb6gAojGWvbmwA/view?usp=drive_link )|
+|9  |Attempt to log in using image in the login|[TEST CASE TC034](https://drive.google.com/file/d/1y2xOJB9rgiEL5SCkKlZBXXiK2hYowb69/view?usp=drive_link )|
+|10 |Login to the account blocked due to multiple unsuccessful tries |[TEST CASE TC009](https://drive.google.com/file/d/19pfqfRBbehRvDTNNlPppDt1LWw5CMwUL/view?usp=drive_link )|
+|11 |Login to the system using social media - facebook account|[TEST CASE TC010](https://drive.google.com/file/d/13l7t1WnglcW7CTNTDvcvZQGR0KN5T50f/view?usp=drive_link )|
+|12 |Login to the system using social media - google account|[TEST CASE TC011](https://drive.google.com/file/d/1X1gejvAyPj5-8cvgt30weuFDs97_PFmB/view?usp=drive_link)|
+|13 |Login to the system using social media - apple account|[TEST CASE TC012](https://drive.google.com/file/d/1cALOjMTGVNwy8n6lMesnHfn_1j70Nd9T/view?usp=drive_link)|
+|14 |Remembering credentials after using ‘Remember me’ (‘Zapamietaj mnie’) functionality|[TEST CASE TC013](https://drive.google.com/file/d/10Op3AUmpSBJqDXNTOdINmk7MYPHX255o/view?usp=drive_link)|
+|15 |Resetting password using ‘Forgot the password?' (’Nie pamiętasz hasła?') functionality|[TEST CASE TC014](https://drive.google.com/file/d/1-W3PW0G8hE3wDQaSBFscUx1O1xxKHB3R/view?usp=drive_link)|
+|16 |Login to the system after changing the password|[TEST CASE TC015](https://drive.google.com/file/d/1I0ZyVe2AW1yCotx-tj8HeBF6ZCDtSRz4/view?usp=drive_link)|
+|17 |Creating an account to delete|[TEST CASE TC033](https://drive.google.com/file/d/1_wldPpw3d7X2p-Pcs67zCIAjC6Cs31MH/view?usp=drive_link)|
+|18 |Login to the account that has been previously deleted|[TEST CASE TC016](https://drive.google.com/file/d/17d9Ldfa9fwL-_421xyzzGlDGlB9JD_Bi/view?usp=drive_link)|
+
+
+#### TEST SCENARO TS002 Testing the booking process for a trip 
+|Id |Title                                                          |TEST CASE|
+|:-:|:-------------------------------------------------------------:|:---------------:|
+|1 |Searching for a trip|[TEST CASE TC026](https://drive.google.com/file/d/1w9pHayNeXxfRCzP-UsZ24vpC4afZwlq6/view?usp=drive_link)|
+|2 |Selecting a trip offer|[TEST CASE TC027](https://drive.google.com/file/d/1tkItT7tbrqtAd-OdpL3nnP2xtBg9YNzO/view?usp=drive_link )|
+|3 |Adding the trip to the cart|[TEST CASE TC028](https://drive.google.com/file/d/1VAOuA-d8tblKt0Q7V6Q4BlOBjosRrz7T/view?usp=drive_link )|
+|4 |Verifying radio button functionality in the booking form - personal data|[TEST CASE TC042](https://drive.google.com/file/d/1GWEQVhWF3WKP_3OtJz2dSSzpIoB1HpYZ/view?usp=drive_link )|
+|5 |Verifying checkbox functionality in the booking form - personal data|[TEST CASE TC043](https://drive.google.com/file/d/1po4EocjkDz2g8Eplk9bVJtNZPmQ7BmS1/view?usp=drive_link )|
+|6 |Verifying hyperlinks in the booking form - personal data|[TEST CASE TC045](https://drive.google.com/file/d/1WtguuCa2MN67GzKQgTIYBfCWjY39JUSe/view?usp=drive_link )|
+|7 |Entering personal information for the travelers in the trip booking process - 'Zablokuj za darmo' option|[TEST CASE TC044](https://drive.google.com/file/d/1aspXRFT8Flnou5jCcIIY57ktAB2SVY2f/view?usp=drive_link )|
+|8 |Entering personal information for the travelers in the trip booking process - 'Zarezewuj teraz' option|[TEST CASE TC029](https://drive.google.com/file/d/1ttFzdpIwUNC-ZoXbffPEwQMLeucTffVa/view?usp=drive_link )|
+|9 |Selecting additional services in the trip booking process|[TEST CASE TC030](https://drive.google.com/file/d/1Qu6bIG0_8b76vaeWVAMr-aMP8dFLcEZN/view?usp=drive_link )|
+|10 |Entering personal information of the accompanying person during the trip booking process|[TEST CASE TC031](https://drive.google.com/file/d/1NHl7xR-14_pBfJn0WmfAfSzPYR-RlKi-/view?usp=drive_link)|
+|11 |Booking information summary - verification of participant 1 data|[TEST CASE TC035](https://drive.google.com/file/d/18hE_vHx56sUbpwuv821U5PnEgOQrPHmO/view?usp=drive_link )|
+|12 |Booking information summary - verification of participant 2 data|[TEST CASE TC036]( https://drive.google.com/file/d/1himrDQ4xX_HlZDR8Ag1eh09hVK8mBug7/view?usp=drive_link )|
+|13 |Booking information summary - room configuration validation|[TEST CASE TC037](https://drive.google.com/file/d/1d7zOmnNZlV1Rd0cJqwJak3bI5khwD2za/view?usp=drive_link)|
+|14 |Booking information summary - price details|[TEST CASE TC038](https://drive.google.com/file/d/19FwvcUdDLVAYPQMoPxCHUYcVGhuUSb91/view?usp=drive_link )|
+|15 |Booking information summary -  adding loyalty cards|[TEST CASE TC039](https://drive.google.com/file/d/1NBMH6SFAgMKmJHlUeZV9cG8AZYDovLMi/view?usp=drive_link )|
+|16 |Booking information summary - adding voucher|[TEST CASE TC040](https://drive.google.com/file/d/1hOj2itr5C4ABSmS7bFnJfgCZCxzHyys4/view?usp=drive_link)|
+|17 |Booking information summary - choosing payment options|[TEST CASE TC041](https://drive.google.com/file/d/1vKVfBhZgynm-CmRvdaAwxBI0BFfx-J0L/view?usp=drive_link)|
+
 ### BUG REPORTS
 |Id |Title                                                          |BUG REPORT|Screencast|Screenshot|
 |:-:|:-------------------------------------------------------------:|:---------------:|:--------:|:--------:|
