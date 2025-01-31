@@ -7,15 +7,15 @@
 ## TEST PLAN
 TEST PLAN for testing the Rainbow Tours web application
 
-* [Introduction](#1.-introduction)
-* [Purpose of testing](#purpose-of-testing)
-* [Scope of testing](#scope-of-testing)
-* [Testing approach](#testing-approach)
-* [Testing environment](#testing-environment)
-* [Risks](#risks)
-* [Artifacts](#artifacts)
-* [Roles and responsibilities](#roles-and-responsibilities)
-* [Test completion criteria](#test-completion-criteria)
+* [Introduction](#1-introduction)
+* [Purpose of testing](#2-purpose-of-testing)
+* [Scope of testing](#3-scope-of-testing)
+* [Testing approach](#4-testing-approach)
+* [Testing environment](#5-testing-environment)
+* [Risks](#6-risks)
+* [Artifacts](#7-artifacts)
+* [Roles and responsibilities](#8-roles-and-responsibilities)
+* [Test completion criteria](#9-test-completion-criteria)
 
 ### 1. Introduction
 This document outlines the test plan for the Rainbow Tours web application. The application is designed for the following purposes:
